@@ -1,0 +1,66 @@
+@import './element-ui/index.less';
+@import './sidebar.less';
+@import './variables.less';
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+a, a:focus, a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+ul, li, p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+html {
+  background-color: #fff;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verdana,Arial,Helvetica,sans-serif,SimSun;
+  font-size: @small_size;
+
+  body {
+    min-width: 1024px;
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+    #app {
+      height: 100%;
+    }
+  }
+}
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

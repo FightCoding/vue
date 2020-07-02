@@ -1,0 +1,16 @@
+//覆盖一些element-ui样式
+@import "../variables.less";
+
+.el-breadcrumb {
+  line-height: 22px;
+  .el-breadcrumb__inner {
+    a, &.is-link:not(:hover) {
+      font-weight: 400;
+      color:rgba(0,0,0,0.6);
+    }
+  }
+}
+.el-breadcrumb__item:last-child .el-breadcrumb__inner, .el-breadcrumb__item:last-child .el-breadcrumb__inner a, .el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover, .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
+  font-weight: 600;
+  color: rgba(0,0,0,0.87);
+}
