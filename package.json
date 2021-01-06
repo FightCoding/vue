@@ -30,7 +30,7 @@
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "animate.css": "^3.7.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "echarts": "^4.7.0",
     "element-ui": "^2.13.0",
     "hard-source-webpack-plugin": "^0.13.1",
