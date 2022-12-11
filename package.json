@@ -21,7 +21,7 @@
     "koa": "^2.11.0",
     "koa-router": "^8.0.8",
     "koa-static-server": "^1.4.0",
-    "qs": "^6.9.1"
+    "qs": "^6.9.7"
   },
   "devDependencies": {
     "@types/js-cookie": "^2.2.5",
